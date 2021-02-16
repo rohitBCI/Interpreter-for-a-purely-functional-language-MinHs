@@ -1,5 +1,5 @@
 # Interpreter-for-a-purely-functional-language-MinHs
-Implemented an interpreter for the Haskell like langauge MinHs using an environment semantics, including support for recursion and closures
+Implemented an interpreter for the Haskell like language MinHs using environment semantics, including support for recursion and closures
 
 # Building minhs
 minhs (the compiler/abstract machine) is written in Haskell, and requires the stack tool
