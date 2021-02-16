@@ -7,13 +7,17 @@ minhs (the compiler/abstract machine) is written in Haskell, and requires the st
 ## Building with stack
 
 You should be able to build the compiler by simply invoking:
+
 $ stack build
 
 To see the debugging options, run (after building):
+
 $ stack exec minhs-1
 
 To run the compiler with a particular file, run:
+
 $ stack exec minhs-1 foo.mhs
 
 To run all of our tests, type:
+
 $ ./run_tests_stack.sh
